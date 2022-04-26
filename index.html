@@ -5,18 +5,125 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>s-abolfazl-s</title>
-    <!-- CSS link's -->
-    <link rel="stylesheet" href="./src/main.css" type="text/css">
+    <meta name="author" content="s-abolfazl-s">
+    <meta name="description" content="This is my resume page">
+    <meta name="keywords" content="html,css,js,front end developer">
+    <title>S-Abolfazl-S | CV</title>
+    <link rel="icon" href="./assets/icon.png">
+    <!-- CSS Link's -->
+    <link type="text/css" rel="stylesheet" href="./src/main.css">
+    <link rel="stylesheet" href="./assets/fontawesome/css/all.min.css">
+    <!-- fix error: http /favicon.ico 404 (Not Found) -->
+    <link rel="shortcut icon" href="#">
 </head>
 
 <body>
     <div id="wrapper">
+        <input style="display: none;" type="checkbox" id="toggle-nav">
+        <div id="nav-box">
+            <label class="btn-nav" for="toggle-nav"></label>
+            <section id="navbar">
+                <nav>
+                    <ul>
+                        <li><a href="#about-pane"><i class="fas fa-info"></i><span>درباره من</span></a></li>
+                        <li><a href="#job-pane"><i class="fas fa-briefcase"></i><span>اطلاعات شغلی</span></a></li>
+                        <li><a href="#projects-pane"><i class="fas fa-copy"></i><span>پروژه ها</span></a></li>
+                        <li><a href="#education-pane"><i class="fas fa-graduation-cap"></i><span>تحصیلات</span></a></li>
+                        <li><a href="#certificates-pane"><i class="fas fa-award"></i><span>مدارک</span></a></li>
+                        <li><a href="#languages-pane"><i class="fas fa-compass-drafting"></i><span>مهارت ها</span></a></li>
+                        <li><a href="#links-pane"><i class="fas fa-link"></i><span>پیوند ها</span></a></li>
+                    </ul>
+                </nav>
+            </section>
+        </div>
+        <main>
+            <section id="about-pane" class="parent-pane">
+                <section id="info-pane" class="content-pane ">
+                    <div id="img-pane">
+                        <img src="" alt="image">
+                    </div>
+                    <h1 id="job-pos"></h1>
+                    <div id="info-sec">
+                        <p id="p-name"><i class="fas fa-user"></i>&nbsp<span></span></p>
+                        <p id="p-military-status"><i class="fa-solid fa-person-military-pointing fa-lg"></i>&nbsp<span></span></p>
+                        <p id="p-email"><i class="fas fa-envelope"></i>&nbsp<span></span></p>
+                        <p id="p-loc"><i class="fas fa-location"></i>&nbsp<span></span></p>
+                        <p id="p-phone"><i class="fas fa-phone"></i>&nbsp<span></span></p>
+                        <p id="p-birth"><i class="fa fa-birthday-cake">&nbsp</i><span></span></p>
+                    </div>
+                </section>
+                <p id="summary-pane" class="content-pane">
+                </p>
+            </section>
+            <section id="job-pane" class="parent-pane">
+                <div class="title-pane ">
+                    <i class="fas fa-briefcase"></i>
+                    <h1>اطلاعات شغلی</h1>
+                </div>
+                <p class="content-pane ">
+                </p>
+            </section>
+            <section id="projects-pane" class="parent-pane">
+                <div class="title-pane ">
+                    <i class="fas fa-copy"></i>
+                    <h1>پروژه ها</h1>
+                </div>
+                <section class="content-pane ">
+                </section>
+            </section>
+            <section id="education-pane" class="parent-pane">
+                <div class="title-pane ">
+                    <i class="fas fa-graduation-cap"></i>
+                    <h1>تحصیلات</h1>
+                </div>
+                <section class="content-pane ">
+                    <h1></h1>
+                    <p>
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </p>
+                </section>
+            </section>
+            <section id="certificates-pane" class="parent-pane">
+                <div class="title-pane ">
+                    <i class="fas fa-award"></i>
+                    <h1>مدارک</h1>
+                </div>
+                <section class="content-pane ">
+                </section>
+            </section>
+            <section id="languages-pane" class="parent-pane">
+                <div class="title-pane">
+                    <i class="fas fa-globe"></i>
+                    <h1>زبان ها</h1>
+                </div>
+                <section class="content-pane ">
+                    <p class="skill-pane"></p>
+                </section>
+            </section>
+            <section id="skills-pane" class="parent-pane">
+                <div class="title-pane ">
+                    <i class="fas fa-compass-drafting"></i>
+                    <h1>مهارت ها</h1>
+                </div>
+                <section class="content-pane ">
+                    <p class="skill-pane"> <span></span> <span></span> </p>
+                </section>
+            </section>
+            <section id="links-pane" class="parent-pane">
+                <div class="title-pane ">
+                    <i class="fas fa-link"></i>
+                    <h1>پیوند ها</h1>
+                </div>
+                <section class="parent-pane content-pane">
+                </section>
+            </section>
 
+        </main>
     </div>
-
-    <!-- script link's -->
-    <script src="./src/index.js" type="text/javascript"></script>
+    <!-- SCRIPT Link's -->
+    <script type="text/javascript" src="./src/index.js"></script>
 </body>
 
 </html>
