@@ -330,7 +330,7 @@ const my_info = {
             "color_icon": "#000"
         },
         "whatsapp": {
-            "url": "#",
+            "url": "https://wa.me/+989107196909/?text=",
             "font_icon": "fab fa-whatsapp fa-lg",
             "color_icon": "#2BD348"
         },
