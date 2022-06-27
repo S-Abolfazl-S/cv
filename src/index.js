@@ -282,6 +282,12 @@ const my_info = {
         "cli": "20",
     },
     "projects": {
+        "todo list": {
+            "description": "برنامه میریت کار ها. قابلیت ها: تغییر تم،ذخیره سازی محلی داده ها، درگ  و دراپ، فیلتر کردن",
+            "technologies": "html css javascript react",
+            "link_name": "github",
+            "link_url": "https://github.com/S-Abolfazl-S/React-Todo-List"
+        },
         "tic tac toe": {
             "description": "در این بازی هر کدام از نفرات که زودتر سه مهره خود را در یک خط قرار دهند برنده بازی می شوند.",
             "technologies": "html css javascript",
